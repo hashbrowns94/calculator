@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel='stylesheet' href='styles.css'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;500;600&display=swap" rel="stylesheet">   
+</head>
+<body>
+    <div class='container' id='main'>
+        <div id='window'></div>
+        <div class = 'operators' id = 'opHome'>
+            <button class = 'operator' id= 'add'>+</button>
+            <button class = 'operator' id= 'subtract'>-</button>
+            <button class = 'operator' id= 'multiply'>*</button>
+            <button class = 'operator' id= 'divide'>/</button>
+        </div>
+        <div class = 'digits' id = 'digHome'>
+            <div id = 'topRow'>
+                <button class = 'digit' id= 'one'>1</button>
+                <button class = 'digit' id= 'two'>2</button>
+                <button class = 'digit' id= 'three'>3</button>
+            </div>
+            <div id = 'middleRow'>
+                <button class = 'digit' id= 'four'>4</button>
+                <button class = 'digit' id= 'five'>5</button>
+                <button class = 'digit' id= 'six'>6</button>
+            </div>
+            <div id = 'bottomRow'>
+                <button class = 'digit' id= 'seven'>7</button>
+                <button class = 'digit' id= 'eight'>8</button>
+                <button class = 'digit' id= 'nine'>9</button>
+            </div>
+        </div>
+        <div class = 'maintain' id = maintHome>
+            <div id = 'extras'>
+                <button class = 'maintenance' id= 'equals'>=</button>
+                <button class = 'digit' id= 'zero'>0</button>
+                <button class = 'digit' id= 'decimal'>.</button>
+            </div>
+            <div id = 'erase'>
+                <button class = 'maintenance' id= 'clear'>clear</button>
+                <button class = 'maintenance' id= 'backspace'>backspace</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

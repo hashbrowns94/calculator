@@ -14,10 +14,9 @@ let result = "";
 let display = function(input){
     displayWindow.textContent = displayWindow.textContent + input;
     if (operator != "" && operandTwo == ""){
-        displayWindow.textContent = "";
-    }
-    if (result){
-        displayWindow.textContent = result;
+        return displayWindow.textContent = "";
+    } else if (result != "" && operandTwo != "" || result == "0"){
+            return displayWindow.textContent = result;
     }
 }
 
